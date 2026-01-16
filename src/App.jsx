@@ -11,13 +11,18 @@ import Dashboard from './components/Dashboard';
 import PendingTask from './components/PendingTask';
 import Deployed from './components/Deployed';
 import Deferred from './components/Deferred';
+import Login from './components/Login';
 import './App.css'
-
+import { useSelector } from 'react-redux';
 
 const App = () => {
+  const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
+
+  if (!isLoggedIn) {
+    return <Login />;
+  }
 
   return (
-
     <div className='flex h-full'>
       <Sidebar />
       <Routes>
@@ -32,7 +37,6 @@ const App = () => {
         <Route path="/statsTask" element={<Dashboard />} />
       </Routes>
     </div>
-
   );
 };
 

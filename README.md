@@ -10,14 +10,14 @@
 Task Management Website + Mobile App</h3>
   <p align="center">
     <br />
-    <a href="https://github.com/Puskar-Roy/Task-Management-Web"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/sachin-027/Task-Management-Web"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://alltaskss.vercel.app">Go Live</a>
     ·
-    <a href="https://github.com/Puskar-Roy/Task-Management-Web/issues">Report Bug</a>
+    <a href="https://github.com/sachin-027/Task-Management-Web/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Puskar-Roy/Task-Management-Web/issues">Request Feature</a>
+    <a href="https://github.com/sachin-027/Task-Management-Web/issues">Request Feature</a>
   </p>
 </div>
 
@@ -57,7 +57,7 @@ Task Management Website + Mobile App</h3>
 
 - Github Repo of Android App
 ```bash
-https://github.com/Puskar-Roy/Task-Management-App
+https://github.com/sachin-027/Task-Management-App
 ```
 
 #### Responsive Design
@@ -78,7 +78,7 @@ Before you begin contributing to this project, make sure you have the following 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Puskar-Roy/Task-Management-Web
+   git clone https://github.com/sachin-027/Task-Management-Web
    ```
 2. **Install Dependencies:**
    ```bash
@@ -132,7 +132,7 @@ We welcome and appreciate contributions from the community ❤️! Here's how yo
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Puskar Roy🖋️
+### Sachi🖋️
 
 
 

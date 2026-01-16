@@ -2,8 +2,16 @@ import { GrTask } from "react-icons/gr";
 import { MdDashboard, MdOutlineTaskAlt, MdAddTask, MdPendingActions, MdCloudDone, MdOutlineAccessTimeFilled, MdQueryStats } from "react-icons/md";
 import { GrInProgress } from "react-icons/gr";
 import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { logout } from "../store/authSlice";
 
 const Sidebar = () => {
+    const dispatch = useDispatch();
+
+    const handleLogout = () => {
+        dispatch(logout());
+    };
+
     return (
         <div className="bg-indigo-500 min-h-[100vh] sm:min-h-screen w-[5rem] sm:w-[19rem] flex flex-col gap-4 roboto-regular">
             <div className="flex items-center gap-2 justify-center h-16 text-white text-2xl font-bold mt-6">
@@ -79,6 +87,11 @@ const Sidebar = () => {
 
                         </span>
                     </Link>
+                    <button onClick={handleLogout} className="px-6 py-4 font-semibold text-lg text-gray-300 hover:text-gray-700 cursor-pointer flex justify-start items-center gap-2">
+                        <span className='sm:block hidden'>
+                            Logout
+                        </span>
+                    </button>
                 </ul>
             </nav>
         </div>
